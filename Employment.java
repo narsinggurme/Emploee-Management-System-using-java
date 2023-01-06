@@ -43,8 +43,7 @@ public class Employment {
         for (Employee e : al) {
             System.out.println(
                     String.format("%-5s %-20s %-10s %-15s %-10s", e.id, e.name, e.salary, e.contact_number, e.email_id));
-        }// System.out.printf("%-20s %-20s %20s %n","InterestRate","Monthly Payment","Total Payment\n");               
-        // System.out.printf("%-20f %-20.2f %-20.2f\n",r,monthlyPayment,totalPayment);
+        }
     }
 
     @SuppressWarnings("unchecked")
